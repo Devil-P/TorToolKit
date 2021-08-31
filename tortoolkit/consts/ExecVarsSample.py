@@ -5,8 +5,8 @@ except:
         # Set true if its VPS
         IS_VPS = False
         
-        API_HASH = ""
-        API_ID = 0
+        API_HASH = "c9a22b82ae01d1f5db061332cd104e7f"
+        API_ID = 4058624
         BOT_TOKEN = "1775969702:AAFpRuugKnvQcmliqfrgTqKniJMZBq7CCSY"
         BASE_URL_OF_BOT = ""
 
