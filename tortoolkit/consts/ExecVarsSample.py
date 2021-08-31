@@ -7,15 +7,15 @@ except:
         
         API_HASH = ""
         API_ID = 0
-        BOT_TOKEN = ""
+        BOT_TOKEN = "1775969702:AAFpRuugKnvQcmliqfrgTqKniJMZBq7CCSY"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [-1001501429087,877016337,1929333228,903563890]
+        OWNER_ID = 877016337
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
