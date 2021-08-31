@@ -442,7 +442,7 @@ async def handle_settings_cb(e):
     if await is_admin(e.client,e.sender_id,e.chat_id):
         await handle_setting_callback(e)
     else:
-        await e.answer("⚠️ WARN ⚠️ Dont Touch Admin Settings.",alert=True)
+        await e.answer("⚠️ WARN ⚠️ Lwda Dont Touch Admin Settings.",alert=True)
 
 async def handle_upcancel_cb(e):
     db = upload_db
@@ -610,9 +610,8 @@ async def set_password_zip(message):
             await message.reply(f"Cannot update the password this is not your download.")
 
 async def start_handler(event):
-    msg = "Hello This is TorToolkit an instance of <a href='https://github.com/yash-dk/TorToolkit-Telegram'>This Repo</a>. Try the repo for yourself and dont forget to put a STAR and fork."
+    msg = "Hello This is RxS TorToolkit See The commands To use The Bot and Features Of The Bot.Don't Try To Leach With more Than 10GB If Admin will see They will warn first and Then ban from The bot."
     await event.reply(msg, parse_mode="html")
-
 def progress_bar(percentage):
     """Returns a progress bar for download
     """
